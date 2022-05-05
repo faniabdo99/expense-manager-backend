@@ -1,0 +1,15 @@
+current directory: /var/www/html/expense-manager-backend/vendor/cache/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/mansynu/.rbenv/versions/2.7.0/bin/ruby -I /home/mansynu/.rbenv/versions/2.7.0/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220504-27001-1goowk4.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/html/expense-manager-backend/vendor/cache/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /var/www/html/expense-manager-backend/vendor/cache/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /var/www/html/expense-manager-backend/vendor/cache/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20220504-27001-16jntub/skiptrace/internal

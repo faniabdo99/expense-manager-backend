@@ -1,0 +1,20 @@
+current directory: /var/www/html/expense-manager-backend/vendor/cache/ruby/2.7.0/gems/io-console-0.5.11/ext/io/console
+/home/mansynu/.rbenv/versions/2.7.0/bin/ruby -I /home/mansynu/.rbenv/versions/2.7.0/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220504-27001-y0rue1.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /var/www/html/expense-manager-backend/vendor/cache/ruby/2.7.0/gems/io-console-0.5.11/ext/io/console
+make "DESTDIR=" clean
+
+current directory: /var/www/html/expense-manager-backend/vendor/cache/ruby/2.7.0/gems/io-console-0.5.11/ext/io/console
+make "DESTDIR="
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /var/www/html/expense-manager-backend/vendor/cache/ruby/2.7.0/gems/io-console-0.5.11/ext/io/console
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 console.so ./.gem.20220504-27001-t3a66s/io
